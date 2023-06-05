@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath='vanph/microproject:v1.0.0'
+dockerpath='vanph/microproject:v1.0.1'
 
 # Step 2
 # Run the Docker Hub container with kubernetes

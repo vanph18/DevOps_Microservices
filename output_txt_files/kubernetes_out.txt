@@ -1,1 +1,13 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+ubuntu@ip-172-31-6-147:~/DevOps_Microservices$ kubectl get pods
+NAME           READY   STATUS    RESTARTS   AGE
+microproject   1/1     Running   0          4h50m
+microproject   1/1     Running   0          4h53m
+
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
